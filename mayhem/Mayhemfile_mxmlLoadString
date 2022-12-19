@@ -1,0 +1,6 @@
+project: mxml
+target: mxmlloadstring
+
+cmds:
+  - cmd: /fuzz_mxmlLoadString
+    libfuzzer: true
